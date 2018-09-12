@@ -5,6 +5,10 @@ html {
 
 header {
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -13,10 +17,6 @@ header {
   height: 200px;
   border-radius: 100%;
   background: #fff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
 .logo img {
@@ -27,7 +27,6 @@ header {
 .yearbook-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 
