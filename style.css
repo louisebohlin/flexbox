@@ -1,0 +1,55 @@
+html {
+  background: #ffa7bf;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+}
+
+.logo {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo img {
+  width: 140px;
+  margin-top: 55px;
+}
+
+.yearbook-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.yearbookcard-item {
+  background-color: #dedee0;
+  text-align: center;
+  box-shadow: 2px 2px 2px lightgrey;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.yearbookcard-item img {
+  width: 270px;
+  height: auto;
+}
+
+p {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  color: #3400ff;
+
+}
