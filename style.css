@@ -24,7 +24,7 @@ header {
   margin-top: 55px;
 }
 
-.yearbook-container {
+.yearbook {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -32,7 +32,7 @@ header {
 
 }
 
-.yearbookcard-item {
+.yearbookcard {
   background-color: #dedee0;
   text-align: center;
   box-shadow: 2px 2px 2px lightgrey;
@@ -41,7 +41,7 @@ header {
 
 }
 
-.yearbookcard-item img {
+.yearbookcard img {
   width: 270px;
   height: auto;
 }
